@@ -106,6 +106,8 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:mimeType="application/octet-stream" android:host="*" android:scheme="http" android:pathPattern=".*\\.rom" />
             </intent-filter>
+<category android:name="android.intent.category.HOME" />
+<category android:name="android.intent.category.DEFAULT" />
         </activity>
     </application>
 
