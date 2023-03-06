@@ -89,6 +89,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+<category android:name="android.intent.category.HOME" />
+<category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <!-- Let Android know that we can handle some USB devices and should receive this event -->
             <intent-filter>
@@ -106,8 +108,6 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:mimeType="application/octet-stream" android:host="*" android:scheme="http" android:pathPattern=".*\\.rom" />
             </intent-filter>
-<category android:name="android.intent.category.HOME" />
-<category android:name="android.intent.category.DEFAULT" />
         </activity>
     </application>
 
