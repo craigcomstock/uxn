@@ -57,6 +57,19 @@
 
     <!-- if you want to capture audio, uncomment this. -->
     <!-- <uses-permission android:name="android.permission.RECORD_AUDIO" /> -->
+<uses-permission android:name="android.permission.SEND_SMS"/>
+<uses-permission android:name="android.permission.READ_SMS" />
+<uses-permission android:name="android.permission.WRITE_SMS"/>
+<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+<uses-permission android:name="android.permission.RECEIVE_MMS"/>
+<!-- <uses-permission android:name="android.permission.VIBRATE"/> -->
+<uses-permission android:name="android.provider.Telephony.SMS_RECEIVED" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
     <!-- Create a Java class extending SDLActivity and place it in a
          directory under app/src/main/java matching the package, e.g. app/src/main/java/com/gamemaker/game/MyGame.java
